@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header h1{
+    line-height: 2.5;
+    color:black;
+}
+.continer{
+    padding: 2% 5%;
+}
+#images img{
+    width: 15%;
+}
+#shape{
+    margin: 1.2rem;
+    padding: 0.5em;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color:rgb(67, 67, 67);
+    border: none;
+    cursor: pointer;
+}
+#shape:hover{
+    box-shadow: 0px 0px 4px 1px rgb(174, 163, 143);
+}
+
+#formula{
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+input{
+    margin:10px;
+    padding: 5px 1.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+#output input{
+    background-color: orangered;
+    color: white;
+}
+
+@media  (max-width:1028px){
+    #images img{
+        width: 50%;
+    }
+}
